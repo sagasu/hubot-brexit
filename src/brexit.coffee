@@ -38,4 +38,4 @@ module.exports = (robot) ->
     msg.send "oh no... they are. They must be cheating :cry:"
 
   robot.hear /are you voting/i, (msg) ->
-    msg.send "we will!"
+    msg.send "I only vote in two cases. When I drink and when I don't. What question is that, every citizen in my virtual home is voting for winning party!"
