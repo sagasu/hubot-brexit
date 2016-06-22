@@ -28,14 +28,14 @@ answers = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /who are you voting for/i, (msg) ->
+  robot.respond  /who are you voting for/i, (msg) ->
     msg.send msg.random answers
 
-  robot.hear /who will win referendum/i, (msg) ->
+  robot.respond  /who will win referendum/i, (msg) ->
     msg.send "we will! :heart:"
 
-  robot.hear /who is winning referendum/i, (msg) ->
+  robot.respond  /who is winning referendum/i, (msg) ->
     msg.send "oh no... they are. They must be cheating :cry:"
 
-  robot.hear /are you voting/i, (msg) ->
+  robot.respond  /are you voting/i, (msg) ->
     msg.send "I only vote in two cases. When I drink and when I don't. What question is that, every citizen in my virtual home is voting for winning party!"
