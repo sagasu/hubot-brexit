@@ -1,0 +1,26 @@
+{
+  "name": "hubot-brexit",
+  "version": "1.0.0",
+  "description": "Ask Hubot about brexit questions :)",
+  "main": "index.coffee",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagasu/hubot-brexit.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "brexit"
+  ],
+  "author": "Mateusz Kopij <sagasu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sagasu/hubot-brexit/issues"
+  },
+  "homepage": "https://github.com/sagasu/hubot-brexit#readme"
+}
